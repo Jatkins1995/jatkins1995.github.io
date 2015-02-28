@@ -1,24 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <title>Jason Atkins</title>
 
-<div class="container">
-  <h2>Media summary generator:</h2>
-  <p>Please enter your article names below:</p>
-  <form role="form">
-    <div class="form-group">
-      <textarea class="form-control" rows="50" name = "hello"></textarea>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+
+    <!-- Start of navbar section -->
+    <div class="navbar navbar-static-top"> <!--detemines where navbar is.  Can swap static for fixed-->
+      <div class="navbar-inner">
+        <div class="container">
+
+          <!-- Start of navbar dropdown button section -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <!--creates a button that apperars when you squish the page-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <!-- End of navbar dropdown buttons section -->
+
+          <!-- Start of navbar links section -->
+          <a class="brand" href="index.html">Jason</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- End of navbar links section -->
+
+        </div>
+      </div>
     </div>
-  </form>
-</div>
+    <!-- End of navbar section -->
 
-</body>
+    <!-- Start of main content section -->
+    <div id="content" class="container">
+
+      <!-- Start of hero unit -->
+      <div class="hero-unit"> <!-- Hero unti is the grey thing-->
+        <h1 class="title">Jason Atkins</h1>
+        <p class="lead">Currently a 1st year Software Engineering student at the University of Guelph.</p>
+      </div>
+      <!-- End of hero unit -->
+
+      <!-- Start of callouts section -->
+      <div class="row"> 
+
+        <!-- Start of projects callout section -->
+        <div class="span4"> <!-- needs to add to 12-->
+          <h2>Projects</h2>
+          <p>
+            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p> <!--Lorem Lipsum just random latin-->
+          <p>
+          <a class="btn" href="projects.html">See more &raquo;</i></a> 
+          <!--href tells link where to go.  &raquo; is an identity allows to write angeled quote (>) -->
+          </p>
+        </div>
+        <!-- End of projects callout section -->
+
+        <!-- Start of resume callout section -->
+        <div id = "resume-callout" class="span4"> <!-- needs to add to 12-->
+          <h2>Resume</h2>
+          <p>
+            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+          <p>
+            <a class="btn" href="resume.html">See more &raquo;</a>
+          </p>
+        </div>
+        <!-- End of resume callout section -->
+
+        <!-- Start of contact callout section -->
+        <div class="span4"> <!-- needs to add to 12-->
+          <h2>Contact</h2>
+          <p>
+            Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+          <p>
+            <a class="btn" href="contact.html">See more &raquo;</a>
+          </p>
+        </div>
+        <!-- End of contact callout section -->
+
+      </div>
+      <!-- End of callouts section -->
+
+      <!-- Start of footer section -->
+      <hr /> <!-- Horizontal Rule-->
+      <footer><p>&copy;Jason Atkins</p></footer>
+      <!-- End of footer section -->
+
+    </div>
+    <!-- End of main content section -->
+
+
+    <!-- Start of javascript needed to make the page responsive -->
+    <script rel="text/javascript" src="jquery/jquery.js"></script>
+    <script rel="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <!-- End of javascript needed to make the page responsive -->
+  </body>
 </html>
