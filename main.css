@@ -21,11 +21,16 @@ body a {
 }
 
 .blogpostSubtitle{
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 }
 
 .previousPost{
+	text-align: left;
+	color: #D3D3D3;
+}
+
+.nextPost{
 	text-align: right;
 	color: #D3D3D3;
 }
