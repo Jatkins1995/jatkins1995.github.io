@@ -14,3 +14,18 @@ body a {
 #resume-callout {
 
 } /*Turns resume section red*/
+
+.blogpostTitle{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.blogpostSubtitle{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.previousPost{
+	text-align: right;
+	color: #D3D3D3;
+}
