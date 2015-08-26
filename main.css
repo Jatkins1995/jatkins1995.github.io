@@ -16,21 +16,27 @@ body a {
 } /*Turns resume section red*/
 
 .blogpostTitle{
-	text-align: center;
 	text-decoration: underline;
 }
 
 .blogpostSubtitle{
-	text-align: left;
 	text-decoration: underline;
 }
 
 .previousPost{
-	text-align: left;
+	text-align: right;
 	color: #D3D3D3;
 }
 
 .nextPost{
-	text-align: right;
+	text-align: left;
 	color: #D3D3D3;
+}
+
+.centered{
+	text-align: center;
+}
+
+.textBlock{
+	text-align: left;
 }
