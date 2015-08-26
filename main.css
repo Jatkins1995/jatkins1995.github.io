@@ -40,3 +40,7 @@ body a {
 .textBlock{
 	text-align: left;
 }
+
+body{
+	background-image: url('codeless_curcuits.jpg');
+}
